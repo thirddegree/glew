@@ -10,7 +10,7 @@ if (COMMAND cmake_policy)
   cmake_policy (SET CMP0003 NEW)
 endif()
 
-set(CMAKE_DEBUG_POSTFIX d)
+#set(CMAKE_DEBUG_POSTFIX d)
 
 option (BUILD_UTILS "utilities" ON)
 
